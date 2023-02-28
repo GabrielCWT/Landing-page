@@ -1,30 +1,44 @@
+html {
+    height: 100%;
+}
 body {
     margin: 0;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.first, .nav-bar {
+.big-container {
+    height: 90%
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 84px 100px 84px 100px;
+}
+.dark-back {
    background-color: #1f2937;
 }
 
-.logo, .text-header {
+.white, .signup-button {
     color: #F9FAF8;
 }
 
 .nav-bar {
     display: flex;
+    box-sizing: border-box;
     justify-content: space-between;
-    padding: 16px 100px 84px 100px;
+    padding: 16px 100px 0 100px;
+    height: 5%
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 ul {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     margin: 0;
     padding: 0;
 }
@@ -40,9 +54,14 @@ a:hover {
 li {
     list-style: none;
 }
+
+.first {
+    display: flex;
+}
+
 .text-header {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .text, a {
@@ -61,7 +80,7 @@ li {
 
 .header {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 900;
     color: #1F2937
 }
 
@@ -76,5 +95,12 @@ li {
 }
 
 .quote-source {
-    font-weight: bold;
+    font-weight: 900;
+}
+
+.footer {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
