@@ -1,1 +1,2 @@
 # Landing-page
+This project it to summarise the learning that I have done on CSS and HTML. The target is to recreate the page based on the photo 'Target.png'. The main feature being used are flex boxes.
