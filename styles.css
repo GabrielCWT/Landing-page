@@ -1,106 +1,160 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 body {
-    margin: 0;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .big-container {
-    height: 90%
+  height: 90%;
 }
 
-.container {
-    box-sizing: border-box;
-    padding: 84px 100px 84px 100px;
-}
 .dark-back {
-   background-color: #1f2937;
+  background-color: #1f2937;
 }
 
-.white, .signup-button {
-    color: #F9FAF8;
+.white,
+.signup-button {
+  color: #f9faf8;
 }
 
 .nav-bar {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    padding: 16px 100px 0 100px;
-    height: 5%
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 16px 100px 0 100px;
+  height: 5%;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 900;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 ul {
-    display: flex;
-    gap: 16px;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  box-sizing: border-box;
+  padding: 84px 100px 84px 100px;
 }
 
 .first {
-    display: flex;
+  justify-content: space-between;
+}
+
+.container .text-container {
+  display: flex;
+  flex-direction: column;
+  flex: initial;
+  width: 600px;
+  height: 180px;
+  gap: 8px;
 }
 
 .text-header {
-    font-size: 48px;
-    font-weight: 900;
+  font-size: 48px;
+  font-weight: 900;
 }
 
-.text, a {
-    font: 18px;
-    color: #E5E7EB;
+.text,
+a {
+  font: 18px;
+  color: #e5e7eb;
+}
+
+.round-border {
+  border-radius: 8px;
+}
+
+.signup-button {
+  padding: 8px 48px;
+  align-self: flex-start;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
 }
 
 .placeholder {
-    background-color: grey;
+  width: 520px;
+  height: 200px;
+  background-color: #6d747d;
+  flex: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.signup-button, .ad {
-    background-color: #3882F6;
+div .second {
+  padding-top: 32px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+  text-align: center;
 }
 
+.content-2 {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.image-container {
+  width: 150px;
+}
+
+.image-placeholder {
+  border: 4px solid #3882f6;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 8px;
+}
+
+.ad {
+  background-color: #3882f6;
+}
 
 .header {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .third {
-    background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
 .quote {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .quote-source {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .footer {
-    height: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
